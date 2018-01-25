@@ -1,3 +1,27 @@
-div {
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #c0bdbd;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav a {
+    display: inline-block;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+}
+
+nav a:hover {
+    color: #1e6499;
 }
