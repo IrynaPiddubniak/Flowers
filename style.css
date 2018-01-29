@@ -25,3 +25,19 @@ nav a {
 nav a:hover {
     color: #1e6499;
 }
+
+.text1 {
+    margin-top: 20px;
+}
+
+.text1 div {
+    text-align: center;
+}
+
+.text1 h1, .text1 h2 {
+    margin: 15px 0 15px 0;
+}
+
+.text1 h2 {
+    margin-bottom: 30px;
+}
