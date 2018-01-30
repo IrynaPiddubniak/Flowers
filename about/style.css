@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    padding: 12px 0 12px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #c0bdbd;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+nav a {
+    display: inline-block;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    
+}
+
+a:hover {
+    color: #1e6499;
+}
+
+.about {
+    margin: 9%;
+}
+
+.about section {
+    display: inline-block;
+}
+
+.photo {
+    width: 30%;
+}
+
+.text {
+    width: 65%;
+}
+
+footer {
+    margin: 2% 8% 1% 8%;
+}
+
+footer section div {
+    display: inline-block;
+    font-size: 18px;
+}
+
+footer .right {
+    float: right;
+}
+
+
+footer .copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+footer span {
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+footer img {
+    margin-right: 5px;
+}
