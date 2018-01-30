@@ -30,7 +30,7 @@ a:hover {
 }
 
 .about {
-    margin: 9%;
+    margin: 8%;
 }
 
 .about section {
@@ -43,6 +43,7 @@ a:hover {
 
 .text {
     width: 65%;
+    padding: 20px;
 }
 
 footer {
