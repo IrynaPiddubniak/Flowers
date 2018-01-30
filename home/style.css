@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
 @import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
 
 body{
     font-family: 'Comfortaa', cursive;
@@ -12,6 +13,7 @@ header {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 
 nav a {
@@ -35,20 +37,20 @@ a:hover {
     text-align: center;
 }
 
-.text1 h1, .text1 h2 {
-    margin: 15px 0 15px 0;
-}
-
-.text1 h1, .t2 h2 {
-    font-family: 'Archivo', sans-serif;
-}
-
 .text1 h1 {
+    font-family: 'Rouge Script', cursive;
+    font-size: 55px;
     word-spacing: 10px;
+    font-weight: normal;
+    margin: 15px 0 2px 0;
 }
 
 .text1 h2 {
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
+    word-spacing: 10px;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal;
 }
 
 .pict1 {
@@ -57,7 +59,13 @@ a:hover {
 
 .pict1 div {
     display: inline-block;
-    margin: -4px -3px;
+    margin: 0;
+    opacity: .7;
+}
+
+.pict1 div:hover {
+    opacity: 1;
+
 }
 
 .pict1 button {
