@@ -34,12 +34,34 @@ a:hover {
 }
 
 .pict1 {
-    margin: 100px 60px 100px 60px;
+    margin: 60px;
+}
+
+.pict1 h1 {
+    margin-bottom: 50px;
+    font-weight: normal;
 }
 
 .pict1 div {
     display: inline-block;
     margin: 0;
+}
+
+.pict1 button {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid #c0bdbd;
+    cursor: pointer;
+    background-color: white;
+    line-height: 2;
+    padding: 0 30px 0 30px;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+
+.pict1 button:hover {
+    border: 2px solid #1e6499;
 }
 
 footer {
