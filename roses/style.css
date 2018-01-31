@@ -29,60 +29,12 @@ a:hover {
     color: #1e6499;
 }
 
-.circle {
-    text-align: center;
-    margin-top: 60px;
-}
-
-.circle a {
-    text-decoration: none;
-}
-
-.circle section {
-    opacity: .7;
-    width: 150px;
-    display: inline-block;
-    overflow: hidden;
-    margin: 0 30px 0 30px;
-}
-
-.circle section:hover {
-    opacity: 1;
-}
-
-.round {
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-    display: table-cell;
-    
-}
-
-.pink {
-    background: #da8271;
-    
-}
-
-.darkpink {
-    background: #d84a64;
-}
-
-.violet {
-    background: #de79c2;
-}
-
-
-
 .pict1 section {
     text-align: center;
 }
 
 .pict1 {
-    margin: 60px 60px 100px 60px;
+    margin: 100px 60px 100px 60px;
 }
 
 .pict1 div {
