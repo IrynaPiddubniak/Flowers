@@ -47,6 +47,10 @@ a:hover {
     margin: 0;
 }
 
+.pict1 div img {
+    width: 400px;
+}
+
 .pict1 a {
     opacity: .7;
 }

@@ -68,6 +68,10 @@ a:hover {
 
 }
 
+.pict1 div img {
+    width: 400px;
+}
+
 .pict1 button {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
