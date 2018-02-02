@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
 @import url('https://fonts.googleapis.com/css?family=Archivo:400,700');
 @import url('https://fonts.googleapis.com/css?family=Rouge+Script');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
 
 body{
     font-family: 'Comfortaa', cursive;
@@ -29,7 +30,37 @@ a:hover {
     color: #1e6499;
 }
 
+.allnew {
+    margin: 40px 100px;
+    width: 50%;
+}
 
+.allnew a {
+    text-decoration: none;
+    color: black;
+}
+
+.allnew a:hover {
+    color: #1e6499;
+}
+
+.allnew img {
+    width: 100%;
+}
+
+.allnew p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c0bdbd;
+}
+
+.new {
+    margin-bottom: 40px;
+}
+
+.new h2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+}
 
 footer {
     margin: 2% 8% 1% 8%;
