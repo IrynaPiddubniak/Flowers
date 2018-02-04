@@ -25,7 +25,7 @@ nav a {
     
 }
 
-a:hover {
+a:hover, .contact a:hover {
     color: #1e6499;
 }
 
@@ -57,8 +57,30 @@ footer a, footer section div {
 }
 
 footer img {
-    margin-right: 5px;
+    margin-right: 25px;
     position: relative;
     top: 5px;
     width: 25px;
+}
+
+.contact {
+    margin: 100px 120px 140px 120px;
+    font-size: 22px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact img {
+    margin-right: 20px;
+    position: relative;
+    top: 12px;
+    width: 40px;
+}
+
+.contact li {
+    list-style-type: none;
+    margin-bottom: 20px;
 }
