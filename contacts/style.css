@@ -63,8 +63,12 @@ footer img {
     width: 25px;
 }
 
+.vin section {
+    display: inline-block;
+}
+
 .contact {
-    margin: 100px 120px 140px 120px;
+    margin: 60px 120px 60px 120px;
     font-size: 22px;
 }
 
@@ -84,3 +88,14 @@ footer img {
     list-style-type: none;
     margin-bottom: 20px;
 }
+
+.map {
+    text-align: center;
+    margin: 50px;
+}
+
+.map img {
+    width: 500px;
+}
+
+
